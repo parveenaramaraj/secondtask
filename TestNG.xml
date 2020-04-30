@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="amazon">
+ <listeners> 
+ <listener class-name="com.selenium.framework.utility.ExtendReport"/>
+ </listeners>
+    <test name="amazon test">
+    <parameter name = "browser" value = "chromePath" />
+        <classes>
+          <class name="com.selenium.framework.testCases.Login"/>
+        </classes>
+    </test>
+</suite> 

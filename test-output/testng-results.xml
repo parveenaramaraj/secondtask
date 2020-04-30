@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="amazon" duration-ms="1275" started-at="2020-04-30T12:04:10Z" finished-at="2020-04-30T12:04:11Z">
+    <groups>
+    </groups>
+    <test name="amazon test" duration-ms="1275" started-at="2020-04-30T12:04:10Z" finished-at="2020-04-30T12:04:11Z">
+      <class name="com.selenium.framework.testCases.Login">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.selenium.framework.testCases.Login@13c78c0b]" name="setup" is-config="true" duration-ms="0" started-at="2020-04-30T17:34:11Z" finished-at="2020-04-30T17:34:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromePath]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.selenium.framework.testCases.BaseClass.setup(BaseClass.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="login(java.lang.String)[pri:0, instance:com.selenium.framework.testCases.Login@13c78c0b]" name="login" duration-ms="0" started-at="2020-04-30T17:34:11Z" finished-at="2020-04-30T17:34:11Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method login requires 1 parameters but 0 were supplied in the @Test annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method login requires 1 parameters but 0 were supplied in the @Test annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="loginValidation()[pri:0, instance:com.selenium.framework.testCases.Login@13c78c0b]" name="loginValidation" duration-ms="8" started-at="2020-04-30T17:34:11Z" finished-at="2020-04-30T17:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.selenium.framework.testCases.Login@13c78c0b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-04-30T17:34:11Z" finished-at="2020-04-30T17:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.framework.testCases.Login -->
+    </test> <!-- amazon test -->
+  </suite> <!-- amazon -->
+</testng-results>
